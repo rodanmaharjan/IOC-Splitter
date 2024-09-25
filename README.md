@@ -1,3 +1,6 @@
+Here’s the complete `README.md` that you can copy and paste directly:
+
+```md
 # ⚡️ IOC-Splitter 🚀
 
 ![Python](https://img.shields.io/badge/python-v3.x-blue.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg) ![License](https://img.shields.io/github/license/rodanmaharjan/IOC-Splitter)
@@ -31,3 +34,102 @@
    ```bash
    git clone https://github.com/yourusername/IOC-Splitter.git
    cd IOC-Splitter
+   ```
+
+2. **Prepare your `input.txt`**:  
+   Add the IOCs to the `input.txt` file, with each IOC on a new line.
+
+3. **Run the script**:
+   ```bash
+   python3 ioc_splitter.py
+   ```
+
+4. **Check the output**:  
+   The script will create the following output files:
+   - `ip.txt`: Extracted IP addresses.
+   - `domain.txt`: Extracted domains.
+   - `url.txt`: Extracted URLs.
+   - `hash.txt`: Extracted hash values.
+   - `final.txt`: A consolidated file containing all the IOCs in order.
+
+---
+
+## 📂 Example
+
+**Input (`input.txt`):**
+```
+8.8.8.8
+example.com
+https://malicious-url.com
+deadbeefdeadbeefdeadbeefdeadbeef
+1.1.1.1
+anotherexample.org
+http://phishing-site.com
+cafebabe0000dead0000cafebabe0000
+```
+
+**Output:**
+
+- **`ip.txt`**:
+  ```
+  8.8.8.8
+  1.1.1.1
+  ```
+
+- **`domain.txt`**:
+  ```
+  example.com
+  anotherexample.org
+  ```
+
+- **`url.txt`**:
+  ```
+  https://malicious-url.com
+  http://phishing-site.com
+  ```
+
+- **`hash.txt`**:
+  ```
+  deadbeefdeadbeefdeadbeefdeadbeef
+  cafebabe0000dead0000cafebabe0000
+  ```
+
+- **`final.txt`** (combined file):
+  ```
+  8.8.8.8
+  1.1.1.1
+  example.com
+  anotherexample.org
+  https://malicious-url.com
+  http://phishing-site.com
+  deadbeefdeadbeefdeadbeefdeadbeef
+  cafebabe0000dead0000cafebabe0000
+  ```
+
+---
+
+## 📦 Installation & Requirements
+
+- Python 3.x: Install from [python.org](https://www.python.org/downloads/).
+- No external libraries needed — uses built-in Python functions for regular expressions and file handling.
+
+
+---
+
+## 💡 Contributing
+
+Contributions are welcome! Feel free to fork this project, open issues, or submit pull requests to enhance **IOC-Splitter**.
+
+---
+
+## 👨‍💻 Author
+
+**[Your Name]**  
+Check out more projects on [GitHub](https://github.com/rodanmaharjan).
+
+---
+
+## 🏁 Get Started
+
+Ready to organize and manage your IOCs? [**Clone the repo**](https://github.com/rodanmaharjan/IOC-Splitter.git) and automate your IOC extraction process now!
+```
