@@ -1,6 +1,3 @@
-Here’s the complete `README.md` that you can copy and paste directly:
-
-```md
 # ⚡️ IOC-Splitter 🚀
 
 ![Python](https://img.shields.io/badge/python-v3.x-blue.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg) ![License](https://img.shields.io/github/license/rodanmaharjan/IOC-Splitter)
@@ -32,9 +29,9 @@ Here’s the complete `README.md` that you can copy and paste directly:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/IOC-Splitter.git
+   git clone https://github.com/rodanmaharjan/IOC-Splitter.git
    cd IOC-Splitter
-   ```
+
 
 2. **Prepare your `input.txt`**:  
    Add the IOCs to the `input.txt` file, with each IOC on a new line.
