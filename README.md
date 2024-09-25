@@ -1,6 +1,6 @@
 # ⚡️ IOC-Splitter 🚀
 
-![Python](https://img.shields.io/badge/python-v3.x-blue.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg) ![License](https://img.shields.io/github/license/yourusername/IOC-Splitter)
+![Python](https://img.shields.io/badge/python-v3.x-blue.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg) ![License](https://img.shields.io/github/license/rodanmaharjan/IOC-Splitter)
 
 **IOC-Splitter** is a Python script designed to easily extract and categorize Indicators of Compromise (IOCs) from text files. With this tool, you can split out IP addresses, domains, URLs, and hash values into separate files, and generate a clean, consolidated output file.
 
