@@ -121,7 +121,7 @@ Contributions are welcome! Feel free to fork this project, open issues, or submi
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
+**[Rodan Maharjan]**  
 Check out more projects on [GitHub](https://github.com/rodanmaharjan).
 
 ---
